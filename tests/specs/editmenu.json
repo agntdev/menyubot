@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/editmenu",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Open the menu editor to modify existing menus"
+            }
+          }
+        ],
+        "send": {
+          "text": "/editmenu"
+        }
+      }
+    ]
+  }
+]
